@@ -625,3 +625,38 @@ e = datetime.now()
 print(e,'end')
 d = e-s
 print(d)
+
+# Below is the iterator running through average facilities and the 4 basic generator types.
+'''
+Time = int(8760)
+
+Temperatures = [600,900,454,291,177,850,177,177,300]
+FacilityD = ['Petroleum_Refinery','Basic_Chem_Manuf','Ethyl_Manuf','Plastics_Resin_Manuf','PetroChem','Alkalies_Chlorine','N_Fert','Corn','Potash_Soda_Borate']
+S,L,D = ImportData(dems = 'demands_averages.csv', lmps = 'lmps.csv', sites = 'ESE_Limited4.csv', hrcount= Time)
+G = []
+T = []
+Ds = []
+P = []
+j = 0
+pdf2 = pd.DataFrame()
+while j < len(Temperatures):
+    t = Temperatures[j]
+    f = FacilityD[j]
+    GI = 0
+    while GI < len(S.index):
+        A = main(hrcount = Time,sites = S, lmps = L,dems = D, genInd = GI, Temp = t, facility = f)
+        G.append(S.loc[S.index==GI]['Sites'])
+        T.append(t)
+        Ds.append(f)
+        P.append(A.vTotalProfits)
+        if A.vTotalProfits != None:
+            A.Output.to_csv(str(t)+str(f)+'_'+str(S.loc[GI,'Sites'])+'_Summary_full.csv')
+            QuickGraphOutputs(A,str(S.loc[GI,'Sites']),hr = 72)
+        GI+=1
+    j+=1
+    df = {'Generator':G,'Temperature Req':T,'Facility Demand':Ds,'Profit':P}
+    pdf = pd.DataFrame(df)
+    pdf2 = pd.concat((pdf2,pdf))
+    pdf2.to_csv('Summary_Full_Range_0318022_full.csv')
+
+'''
