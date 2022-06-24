@@ -1,0 +1,2 @@
+﻿Sites,Source,Type,Power in MWe,Power in MWt,Thermal Transfer Efficiency,MSL in MWe,MSL_turb in MWe,Thermal Efficiency,MDT in hours,Ramp Rate (fraction of capacity/hr),Ramp Rate (MW/hr),Initial Generation Above Min (MWe),Outlet Temp (C),Working Fluid Penalty,Working Fluid Temp (C),CAPEX $/kWe,FOPEX $/kWe,Max Modules,VOM in $/MWh-e,FC in $/MWh-e,Effective VOC in $/MWh-e,Effective HVOC in $/MWh-t,Startupfixedcost in $
+iMSR,Samalova,MSR,141,300,0.99,28.2,14.1,0.47,20,0.6,84.6,35.25,700,1,700,4091,85,12,0.5,10.582,11.082,5.20854,30000
