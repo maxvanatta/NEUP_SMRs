@@ -1,0 +1,149 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_MIP_Tolerances_MIPGap                   0.10000000000000001
+Tried aggregator 2 times.
+MIQP Presolve eliminated 14610 rows and 10223 columns.
+MIQP Presolve modified 1462 coefficients.
+Aggregator did 2190 substitutions.
+Presolve time = 0.05 sec. (33.24 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (35.68 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (35.68 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_OptimalityTarget                        3
+CPXPARAM_MIP_Tolerances_MIPGap                   0.10000000000000001
+Tried aggregator 2 times.
+MIQP Presolve eliminated 14610 rows and 10223 columns.
+MIQP Presolve modified 1462 coefficients.
+Aggregator did 2190 substitutions.
+Reduced MIQP has 7294 rows, 6570 columns, and 16048 nonzeros.
+Reduced MIQP has 1460 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Reduced MIQP objective Q matrix has 4380 nonzeros.
+Presolve time = 0.02 sec. (34.99 ticks)
+Probing time = 0.00 sec. (0.59 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.05 sec. (54.40 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0   1.61809e+08   1.61809e+08       10    0.00%
+      0     0        cutoff         1.61809e+08   1.61809e+08       10    0.00%
+Elapsed time = 0.16 sec. (218.97 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.16 sec. (219.56 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.05 sec. (4.94 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.20 sec. (224.49 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_OptimalityTarget                        3
+CPXPARAM_MIP_Tolerances_MIPGap                   0.10000000000000001
+Tried aggregator 2 times.
+MIQP Presolve eliminated 970 rows and 675 columns.
+MIQP Presolve modified 98 coefficients.
+Aggregator did 144 substitutions.
+Reduced MIQP has 474 rows, 432 columns, and 1044 nonzeros.
+Reduced MIQP has 96 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Reduced MIQP objective Q matrix has 288 nonzeros.
+Presolve time = 0.00 sec. (2.25 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (3.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0   1.02111e+07   1.02111e+07        9    0.00%
+      0     0        cutoff         1.02111e+07   1.02111e+07        9    0.00%
+Elapsed time = 0.02 sec. (10.34 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (10.38 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.02 sec. (0.32 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (10.70 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_OptimalityTarget                        3
+CPXPARAM_MIP_Tolerances_MIPGap                   0.10000000000000001
+Tried aggregator 2 times.
+MIQP Presolve eliminated 968 rows and 673 columns.
+MIQP Presolve modified 96 coefficients.
+Aggregator did 146 substitutions.
+Reduced MIQP has 474 rows, 432 columns, and 1044 nonzeros.
+Reduced MIQP has 96 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Reduced MIQP objective Q matrix has 288 nonzeros.
+Presolve time = 0.00 sec. (2.27 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (3.20 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0   1.03965e+07   1.03965e+07       10    0.00%
+      0     0        cutoff         1.03965e+07   1.03965e+07       10    0.00%
+Elapsed time = 0.02 sec. (10.24 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (10.27 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.18 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (10.45 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_OptimalityTarget                        3
+CPXPARAM_MIP_Tolerances_MIPGap                   0.10000000000000001
+Tried aggregator 2 times.
+MIQP Presolve eliminated 488 rows and 337 columns.
+MIQP Presolve modified 48 coefficients.
+Aggregator did 74 substitutions.
+Reduced MIQP has 234 rows, 216 columns, and 516 nonzeros.
+Reduced MIQP has 48 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Reduced MIQP objective Q matrix has 144 nonzeros.
+Presolve time = 0.00 sec. (1.11 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (1.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0  5197870.8773  5197870.8773       10    0.00%
+      0     0        cutoff        5197870.8773  5197870.8773       10    0.00%
+Elapsed time = 0.00 sec. (5.02 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (5.04 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.16 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (5.20 ticks)
