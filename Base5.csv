@@ -1,0 +1,6 @@
+﻿Sites,Source,Type,Power in MWe,Power in MWt,Thermal Transfer Efficiency,MSL in MWe,MSL_turb in MWe,Thermal Efficiency,MDT in hours,Ramp Rate (fraction of capacity/hr),Ramp Rate (MW/hr),Initial Generation Above Min (MWe),Outlet Temp (C),Working Fluid Penalty,Working Fluid Temp (C),CAPEX $/kWe,FOPEX $/kWe,Max Modules,VOM in $/MWh-e,FC in $/MWh-e,Effective VOC in $/MWh-e,Effective HVOC in $/MWh-t,Startupfixedcost in $
+iPWR,,PWR,77,250,0.99,15.4,7.7,0.308,20,0.4,30.8,38.5,302,1,302,5535.02,115,12,0.8,8.9713,9.7713,3.0095604,38500
+HTGR,,HTGR,164,350,0.99,32.8,16.4,0.468571429,20,6,984,82,950,0.896825397,851.984127,7500,0,4,0,13.189,13.189,6.179988571,82000
+iMSR,Samalova,MSR,141,300,0.99,28.2,14.1,0.47,20,0.6,84.6,70.5,700,0.835714286,585,4091,85,12,0.5,10.582,11.082,5.20854,70500
+Microreactor,https://www.energy.gov/sites/prod/files/2015/12/f27/ECON-SMRKeytoNuclearPowerDec2011.pdf,HTGR,6.7,20,0.99,2.7,0.67,0.335,20,6,40.2,3.35,630,0.896825397,565,10901.97,264.33,12,0,0,0,0,3350
+PBR-HTGR,,HTGR,80,200,0.99,32,8,0.4,20,3,240,40,750,0.750666667,563,4569,0,12,0,13.189,13.189,5.2756,40000
